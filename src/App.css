@@ -94,12 +94,14 @@ a {
 
 }
 .product-container-cart{
+    text-align: center;
     width: 400px;
     height: calc(100%-40px);
     display: flex;
     flex-wrap: wrap;
     margin-top: 82px;
     box-shadow: 1px 1px 10px grey;
+    margin-left: 30%;
 }
 
 .producnt-img {

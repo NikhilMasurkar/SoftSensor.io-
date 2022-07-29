@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Liked = ({ products }) => {
   const Id = useParams("id");
   let pd = products.filter((item) => {
-    return item.id == Id.id;
+    return item.id === Id.id;
   });
   let item = pd[0];
   return (

@@ -1,12 +1,9 @@
-
 import { Link } from "react-router-dom";
 
 const Product = ({ item, liked, handleLike }) => {
-
-
   return (
     <>
-      <div className = "product-container">
+      <div className="product-container">
         <img height="100" src={item.image} alt={item.title} />
         <h4>{item.title}</h4>
         <br />
@@ -16,7 +13,8 @@ const Product = ({ item, liked, handleLike }) => {
           {liked.includes(item.id) ? "Unlike" : "Like"}
         </button>
         <button>
-         <Link to={item.id.toString()}>Add to Cart</Link></button>
+          <Link to={item.id.toString()}>Add to Cart</Link>
+        </button>
       </div>
     </>
   );

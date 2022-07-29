@@ -9,7 +9,7 @@ const Liked = ({ products }) => {
   });
   let item = pd[0];
   return (
-    <div>
+    <div className="product-container-cart">
       <h1>
         <span>
         <button>
@@ -20,10 +20,10 @@ const Liked = ({ products }) => {
         </span>
 
         {
-          <div style={{ border: "1px solid" }}>
+          <div >
             <img height="100" src={item.image} alt={item.title} />
             <h4>{item.title}</h4>
-            <h4>${item.price}</h4>
+            <h4>{item.price}</h4>
             <button>Buy</button>
           </div>
         }

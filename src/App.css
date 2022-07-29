@@ -68,12 +68,6 @@ a {
 
 }
 
-.buttons {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 10px;
-}
-
 .Box {
     display: flex;
     flex-direction: column;
@@ -81,10 +75,6 @@ a {
     /* align-items: center; */
 }
 
-.cards {
-    padding: 10px;
-    gap: 10px;
-}
 
 .product-container {
     text-align: center;
@@ -93,7 +83,8 @@ a {
     box-shadow: 1px 1px 10px grey;
 
 }
-.product-container-cart{
+
+.product-container-cart {
     text-align: center;
     width: 400px;
     height: calc(100%-40px);
@@ -113,16 +104,6 @@ a {
     height: 40px;
 }
 
-.buttoncard {
-
-    color: black;
-
-}
-
-.showProducts {
-    display: flex;
-    flex-wrap: wrap;
-}
 
 button {
     width: 150px;
@@ -136,4 +117,5 @@ button {
 
 button:hover {
     background-color: azure;
+    border: 1px solid gray;
 }

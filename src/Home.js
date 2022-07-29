@@ -1,18 +1,13 @@
 import Product from "./Product";
 
-const Home = ({ products, liked, setLiked, handleLike }) => {
+const Home = ({ products, }) => {
 
     return (
         <>
             <div className="container">
                 {products.map((item) => {
                     return (
-                        <Product
-                            item={item}
-                            liked={liked}
-                            setLiked={setLiked}
-                            handleLike={handleLike}
-                        />
+                        <Product item={item} />
                     );
                 })}
             </div>

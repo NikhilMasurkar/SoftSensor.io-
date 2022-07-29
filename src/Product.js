@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const Product = ({ item,}) => {
+const Product = ({ item }) => {
   return (
     <>
       <div className="product-container">
@@ -9,7 +9,6 @@ const Product = ({ item,}) => {
         <br />
         <h4>${item.price}</h4>
 
-       
         <button>
           <Link to={item.id.toString()}>Add to Cart</Link>
         </button>

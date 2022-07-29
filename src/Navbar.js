@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="heading">
-        <h1>Softsensor.io</h1>
+        <h1>Softsensor.AI</h1>
       </div>
     </div>
   );

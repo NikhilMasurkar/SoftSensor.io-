@@ -99,7 +99,7 @@ a {
     height: calc(100%-40px);
     display: flex;
     flex-wrap: wrap;
-    margin-top: 82px;
+    margin-top: 100px;
     box-shadow: 1px 1px 10px grey;
     margin-left: 30%;
 }
